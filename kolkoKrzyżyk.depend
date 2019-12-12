@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1576174478 source:c:\users\server\documents\codebloks\kolkokrzy퓓k\main.cpp
+	<iostream>
+	<kolkoKrzyzyk.h>
+
+1576175635 source:c:\users\server\documents\codebloks\kolkokrzy퓓k\src\kolkokrzyzyk.cpp
+	"kolkoKrzyzyk.h"
+	<pole.h>
+	<iostream>
+
+1576174284 c:\users\server\documents\codebloks\kolkokrzy퓓k\include\kolkokrzyzyk.h
+	<pole.h>
+
+1576097118 source:c:\users\server\documents\codebloks\kolkokrzy퓓k\src\pole.cpp
+	"pole.h"
+
+1575563681 c:\users\server\documents\codebloks\kolkokrzy퓓k\include\pole.h
+
