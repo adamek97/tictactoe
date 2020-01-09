@@ -4,19 +4,30 @@
 using namespace std;
 pole tabela[3][3];
 bool gracz=true;//false to krzyzyk, kolko to true
+void  kolkoKrzyzyk::clearpol()
+{
+    for (int i=0; i<3; i++)
+    {
+        for (int j=0; j<3; j++)
+        {
+         tabela[i][j].setPuste();
+         cout<<tabela[i][j].getZnak();
+        }
+}
+}
 bool checkRemis()
 {
-    for (int i=0; i>3; i++)
+    for (int i=0; i<3; i++)
     {
-        for (int j=0; j>3; j++)
+        for (int j=0; j<3; j++)
         {
             if (tabela[i][j].getZnak()==' ')
             {
-                return true;
+                return false;
             }
         }
     }
-    return false;
+    return true;
 }
 void kolkoKrzyzyk::wydrukuj()
 

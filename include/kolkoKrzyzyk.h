@@ -9,7 +9,7 @@ class kolkoKrzyzyk
         virtual ~kolkoKrzyzyk();
         bool setWspolrzednych(int x,int y);
         void wydrukuj();
-
+         void clearpol();
     protected:
 
     private:

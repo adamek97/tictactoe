@@ -1,13 +1,13 @@
 #include <iostream>
 #include <kolkoKrzyzyk.h>
 using namespace std;
+kolkoKrzyzyk gra =kolkoKrzyzyk();
 void tictactoe()
 {
-kolkoKrzyzyk gra =kolkoKrzyzyk();
  int x,y;
+gra.clearpol();
 do
 {
-
 gra.wydrukuj();
     cout<<"podaj x: ";
     cin>>x;
@@ -25,11 +25,14 @@ int main()
  do
  {
      cin >>z ;
+     if (z=='Y'||z=='y'||z=='N'||z=='n')
+        break;
  }
- while ( z=='Y'||z=='y'||z=='N'||z=='n');
+ while (z!='Y'||z!='y'||z!='N'||z!='n');
     if ( z=='Y'||z=='y')
  {
-     main();
+
+main();
  }
     return 0;
 }
