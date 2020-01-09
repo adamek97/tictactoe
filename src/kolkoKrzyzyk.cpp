@@ -119,6 +119,7 @@ return true ;
         }
         if(checkRemis())
         {
+            cout<<"REMIS  !  "<<endl;
             return false;
         }
         return true;
