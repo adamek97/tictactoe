@@ -16,3 +16,20 @@
 
 1575563681 c:\users\server\documents\codebloks\kolkokrzy¿yk\include\pole.h
 
+1578073850 source:c:\users\server\documents\github\tictactoe\main.cpp
+	<iostream>
+	<kolkoKrzyzyk.h>
+
+1578072650 c:\users\server\documents\github\tictactoe\include\kolkokrzyzyk.h
+	<pole.h>
+
+1575563681 c:\users\server\documents\github\tictactoe\include\pole.h
+
+1578073733 source:c:\users\server\documents\github\tictactoe\src\kolkokrzyzyk.cpp
+	"kolkoKrzyzyk.h"
+	<pole.h>
+	<iostream>
+
+1576097118 source:c:\users\server\documents\github\tictactoe\src\pole.cpp
+	"pole.h"
+

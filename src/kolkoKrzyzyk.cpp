@@ -80,7 +80,7 @@ return true ;
     {
         if (gracz)
         {
-            if(tabela [x][y].setKolko())
+            if(tabela [y][x].setKolko())
             {
                 cout<<"ustawilem kolko na ("<<x<<","<<y<<")"<<endl;
             }
@@ -99,9 +99,9 @@ return true ;
         }
         else
         {
-            if(tabela [x][y].setKrzyzyk())
+            if(tabela [y][x].setKrzyzyk())
             {
-                cout<<tabela[x][y].getZnak()<<endl;
+               // cout<<tabela[y][x].getZnak()<<endl;
                 cout<<"ustawilem krzyzyk na("<<x<<","<<y<<")"<<endl;
             }
             else
