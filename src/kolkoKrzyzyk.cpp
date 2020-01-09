@@ -43,21 +43,22 @@ void kolkoKrzyzyk::wydrukuj()
     }
     else {cout<<"krzyzyk"<<endl<<endl;}
     cout << endl;
+    cout << "   0     1     2  (x)"<<endl;
+    cout << "      |     |     " << endl;
+    cout << "0  " << tabela[0][0].getZnak() << "  |  " << tabela[0][1].getZnak() << "  |  " << tabela[0][2].getZnak() << endl;
 
-    cout << "     |     |     " << endl;
-    cout << "  " << tabela[0][0].getZnak() << "  |  " << tabela[0][1].getZnak() << "  |  " << tabela[0][2].getZnak() << endl;
+    cout << " _____|_____|_____" << endl;
+    cout << "      |     |     " << endl;
 
-    cout << "_____|_____|_____" << endl;
-    cout << "     |     |     " << endl;
+    cout << "1  " << tabela[1][0].getZnak() << "  |  " << tabela[1][1].getZnak() << "  |  " << tabela[1][2].getZnak() << endl;
 
-    cout << "  " << tabela[1][0].getZnak() << "  |  " << tabela[1][1].getZnak() << "  |  " << tabela[1][2].getZnak() << endl;
+    cout << " _____|_____|_____" << endl;
+    cout << "      |     |     " << endl;
 
-    cout << "_____|_____|_____" << endl;
-    cout << "     |     |     " << endl;
+    cout << "2  " << tabela[2][0].getZnak() << "  |  " << tabela[2][1].getZnak() << "  |  " << tabela[2][2].getZnak() << endl;
 
-    cout << "  " << tabela[2][0].getZnak() << "  |  " << tabela[2][1].getZnak() << "  |  " << tabela[2][2].getZnak() << endl;
-
-    cout << "     |     |     " << endl << endl;
+    cout << "      |     |     " << endl;
+    cout <<"(y)"<<endl<<endl;
 }
 
 bool kolkoKrzyzyk::setWspolrzednych(int x,int y)
